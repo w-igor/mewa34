@@ -1,0 +1,86 @@
+body
+{
+    background-color: var(--green);
+}
+
+section.services
+{
+    position: absolute;
+    top: 120px;
+    height: fit-content;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nfz_logo
+{
+    width: 100%;
+    height: 120px;
+    background-image: url("../gfx/nfz.png");
+    background-size: auto 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+}
+
+section.services > div > .title
+{
+    color: white;
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section.services > div > .description
+{
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+section.services > div > .description > p,
+section.services > div > .description > ul
+{
+    margin: 0;
+    opacity: 0.8;
+}
+
+section.services > div > .description > ul
+{
+    padding-left: 20px;
+}
+
+section.services > div > .description > .subtitle
+{
+    color: white;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section.services > div > .description > table th
+{
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+section.services > div > .description > table > tbody > tr
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 600px)
+{
+    section.about
+    {
+        top: 140px;
+        grid-template-columns: 1fr;
+    }
+}

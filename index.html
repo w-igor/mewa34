@@ -16,54 +16,72 @@
 </head>
 <body>
     <main>
-        <section class = "header">
-            <nav>
-                <img class = "logo" src = "./gfx/logo.jpg" alt = "logo">
-                <div class = "title">Specjalistyczny Ośrodek Rehabilitacji</div>
-                <div class = "details">
-                    <div>
-                        <div class = "phone"></div>
-                        <a href = "tel: +48 32 232 59 26">+48 32 232 59 26</a>
-                    </div>
-                    <div>
-                        <div class = "address"></div>
-                        <span>ul. Mewy 34, 44-114 Gliwice</span>
-                    </div>
+        <nav>
+            <img class = "logo" src = "./gfx/logo.jpg" alt = "logo"  onclick = "window.location.href = 'index.html'">
+            <div class = "title">Specjalistyczny Ośrodek Rehabilitacji</div>
+            <div class = "details">
+                <div>
+                    <div class = "phone"></div>
+                    <a href = "tel: +48 32 232 59 26">+48 32 232 59 26</a>
                 </div>
-            </nav>
+                <div>
+                    <div class = "address"></div>
+                    <span>ul. Mewy 34, 44-114 Gliwice</span>
+                </div>
+            </div>
+            <div class = "menu" onclick = 'this.classList.toggle("active")'>
+                <div class = "icon"></div>
+                <div class = "links">
+                    <a href = "index.html">Home</a>
+                    <a href = "about.html">O nas</a>
+                    <a href = "gallery.html">Galeria</a>
+                    <a href = "services.html">Usługi</a>
+                    <a href = "contact.html">Kontakt</a>
+            </div>
+        </nav>
+        <section class = "header">
             <div class = "hero_container">
                 <h1 class = "title">Nasza działalność</h1>
                 <h2 class = "subtitle">
-                    Specjalistyczny Ośrodek Rehabilitacji Sp. z o.o  jest przychodnią
-                    rehabilitacyjną istniejącą od 1997 roku.
-                    W ramach naszych usług oferujemy porady lekarza rehabilitacji oraz
-                    kompleksową fizjoterapię ambulatoryjną.
-                    Nasza poradnia jest przystosowana do potrzeb osób niepełnosprawnych.
-                    Działamy w ramach kontraktu z NFZ.
-                    Znajdujemy się w Gliwicach przy ul. Mewy 34 na Osiedlu Sikornik.
+                    <p>
+                        Pomagamy odzyskać sprawność, samodzielność i komfort życia po urazach, wypadkach oraz
+                        zabiegach operacyjnych. Naszą opieką obejmujemy osoby po złamaniach, endoprotezoplastyce,
+                        operacjach ortopedycznych i neurologicznych, a także pacjentów wymagających wsparcia w powrocie
+                        do codziennej aktywności.
+                    </p>
+                    <p>
+                        Szczególną troską otaczamy seniorów, pomagając im zachować sprawność, niezależność i dobrą
+                        jakość życia na każdym etapie leczenia i rehabilitacji.
+                    </p>
+                    <p>
+                        Łączymy doświadczenie, indywidualne podejście i nowoczesne metody terapii, aby każdy pacjent
+                        mógł bezpiecznie i skutecznie wrócić do zdrowia oraz aktywności, która daje radość każdego dnia.
+                        Każdy powrót do sprawności zaczyna się od pierwszego kroku - jesteśmy tutaj, aby przejść tę drogę
+                        razem z Państwem.
+                    </p>
                 </h2>
-                <iframe loading = "lazy" src = "https://www.google.com/maps?q=50.2791091,18.6554654&z=17&output=embed"></iframe>
             </div>
             <div class = "hero_image"></div>
         </section>
-        <section class = "opening">
-            <div class = "title">Godzina otwarcia</div>
-            <div class = "table">
-                <div class = "day">Poniedziałek</div>
-                <div class = "hours">8:00 - 18:00</div>
-                <div class = "day">Wtorek</div>
-                <div class = "hours">8:00 - 18:00</div>
-                <div class = "day">Środa</div>
-                <div class = "hours">8:00 - 18:00</div>
-                <div class = "day">Czwartek</div>
-                <div class = "hours">8:00 - 18:00</div>
-                <div class = "day">Piątek</div>
-                <div class = "hours">8:00 - 18:00</div>
-                <div class = "day">Sobota</div>
-                <div class = "hours">NIECZYNNE</div>
-                <div class = "day">Niedziela</div>
-                <div class = "hours">NIECZYNNE</div>
-            </div>
+        <section class = "showcase">
+            <h2 class = "title">"Nie liczy się to jak wolno idziesz, dopóki się nie zatrzymujesz"</h2>
+            <div class = "cards">
+                <div class = "card">
+                    <img src = "./gfx/card1.jpg" class = "image">
+                    <div class = "title">Przywracamy komfort życia</div>
+                </div>
+                <div class = "card">
+                    <img src = "./gfx/card2.png" class = "image">
+                    <div class = "title">Pomagamy wrócić do aktywności</div>
+                </div>
+                <div class = "card">
+                    <img src = "./gfx/card3.jpg" class = "image">
+                    <div class = "title">Skuteczna terapia oparta na wiedzy i doświadczeniu</div>
+                </div>
+                <div class = "card">
+                    <img src = "./gfx/card4.jpg" class = "image">
+                    <div class = "title">Twoja sprawność to nasza misja</div>
+                </div>
         </section>
     </main>
 </body>
