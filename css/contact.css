@@ -44,6 +44,17 @@ section.info > .info_container > .map
 section.info > .info_container > .map > .title
 {
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section.info > .info_container > .map > .title > .divider
+{
+    width: 1px;
+    height: 25px;
+    background-color: black;
+    margin: 0 10px;
 }
     
 section.info > .info_container > .map > iframe
