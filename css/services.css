@@ -5,10 +5,8 @@ body
 
 section.services
 {
-    position: absolute;
-    top: 120px;
     height: fit-content;
-    padding-bottom: 40px;
+    padding: 40px 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -28,7 +26,7 @@ section.services
 
 section.services > div > .title
 {
-    color: white;
+    color: var(--white);
     margin: 20px 0;
     font-size: 40px;
     font-weight: bold;
@@ -36,7 +34,7 @@ section.services > div > .title
 
 section.services > div > .description
 {
-    color: white;
+    color: var(--white);
     font-size: 17px;
     margin: 0;
     display: flex;
@@ -58,7 +56,7 @@ section.services > div > .description > ul
 
 section.services > div > .description > .subtitle
 {
-    color: white;
+    color: var(--white);
     margin-top: 10px;
     font-size: 22px;
     font-weight: bold;
@@ -80,7 +78,6 @@ section.services > div > .description > table > tbody > tr
 {
     section.about
     {
-        top: 140px;
         grid-template-columns: 1fr;
     }
 }

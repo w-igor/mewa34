@@ -5,10 +5,8 @@ body
 
 section.about
 {
-    position: absolute;
-    top: 120px;
     height: fit-content;
-    padding-bottom: 40px;
+    padding: 40px 0;
     display: grid;
     grid-template-columns: 300px auto;
     gap: 40px;
@@ -47,7 +45,7 @@ section.about > .images > .doctor
 
 section.about > .text > .title
 {
-    color: white;
+    color: var(--white);
     margin: 0;
     margin-bottom: 20px;
     font-size: 50px;
@@ -55,7 +53,7 @@ section.about > .text > .title
 
 section.about > .text > .description
 {
-    color: white;
+    color: var(--white);
     font-size: 17px;
     margin: 0;
     display: flex;
@@ -89,7 +87,6 @@ section.about > .text > .description > .important
 {
     section.about
     {
-        top: 140px;
         grid-template-columns: 1fr;
     }
 

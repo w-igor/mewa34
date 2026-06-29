@@ -5,15 +5,13 @@ body
 
 section.gallery
 {
-    position: absolute;
-    top: 120px;
+    padding: 40px 0;
     height: fit-content;
-    padding-bottom: 40px;
 }
 
 section.gallery > .title
 {
-    color: white;
+    color: var(--white);
     margin: 0;
     margin-bottom: 30px;
     font-size: 50px;
@@ -44,11 +42,6 @@ section.gallery > .images_container > .image.big
 
 @media screen and (max-width: 600px)
 {
-    section.gallery
-    {
-        top: 140px;
-    }
-
     section.gallery > .images_container
     {
         grid-template-columns: repeat(2, 1fr);

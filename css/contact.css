@@ -15,7 +15,7 @@ section.info
 
 section.info > .title
 {
-    color: white;
+    color: var(--white);
     margin: 0;
     font-size: 60px;
 }
@@ -28,7 +28,7 @@ section.info > .info_container
     justify-content: center;
     padding: 50px 60px;
     border-radius: 16px;
-    background-color: white;
+    background-color: var(--white);
     gap: 20px;
     box-shadow: 0 0 50px -10px rgba(0, 0, 0, 0.5);
 }

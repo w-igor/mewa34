@@ -1,0 +1,25 @@
+body
+{
+    background-color: var(--green);
+}
+
+section.news
+{
+    height: fit-content;
+    padding: 40px 0;
+}
+
+section.news > .title
+{
+    color: var(--white);
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+section.news > .text
+{
+    color: var(--white);
+    opacity: 0.8;
+    font-size: 17px;
+}

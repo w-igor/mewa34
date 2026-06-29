@@ -4,6 +4,7 @@ section.header
     max-width: unset;
     background-color: var(--green);
     height: 75vh;
+    margin-bottom: 25px;
     overflow: hidden;
 }
 
@@ -28,7 +29,7 @@ section.header > .hero_image
     top: 0;
     width: 50vw;
     height: 75vh;
-    background-image: url("../gfx/hero.jpg");
+    background-image: url("../gfx/hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +42,7 @@ section.header > .hero_container > .title,
 section.header > .hero_container > .subtitle
 {
     z-index: 2;
-    color: white;
+    color: var(--white);
 }
 
 section.header > .hero_container > .title
@@ -64,6 +65,22 @@ section.header > .hero_container > .subtitle > p
     margin: 12px 0;
 }
 
+section.header > .quote
+{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 35px;
+    color: var(--white);
+    position: absolute;
+    font-style: italic;
+    font-weight: normal;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    z-index: 2;
+}
+
 @media screen and (max-width: 600px)
 {
     section.header,
@@ -79,14 +96,6 @@ section.header > .hero_container > .subtitle > p
     {
         display: none;
     }
-}
-
-section.showcase > .title
-{
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 35px;
-    opacity: 0.8;
 }
 
 section.showcase > .cards

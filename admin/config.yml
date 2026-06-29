@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: w-igor/mewa34
+  branch: main
+
+collections:
+  - name: "news"
+    label: "Aktualności"
+    files:
+      - file: "content/news/news.json"
+        label: "Aktualności"
+        name: "news"
+
+        fields:
+          - name: items
+            label: Lista
+            widget: list
+            field:
+              { name: body, label: Tekst, widget: text }
