@@ -3,9 +3,13 @@ backend:
   repo: w-igor/mewa34
   branch: main
 
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
 collections:
   - name: "news"
     label: "Aktualności"
+
     files:
       - file: "content/news/news.json"
         label: "Aktualności"
@@ -15,5 +19,5 @@ collections:
           - name: items
             label: Lista
             widget: list
-            field:
-              { name: body, label: Tekst, widget: text }
+            fields:
+              - { name: body, label: Tekst, widget: text }
