@@ -154,7 +154,7 @@ nav > .details > div > .address
     mask-image: url("../gfx/location.svg");
 }
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1050px)
 {
     nav
     {
