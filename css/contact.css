@@ -107,10 +107,11 @@ section.info > .info_container > .opening > .subtitle
     {
         height: fit-content;
         position: absolute;
-        top: 140px;
+        top: 500px;
     }
 
-    section.info > .title
+    section.info > .title,
+    section.info > .info_container > .map > .title
     {
         display: none;
     }
@@ -121,7 +122,8 @@ section.info > .info_container > .opening > .subtitle
         flex-direction: column;
         width: 90vw;
         height: fit-content;
-        padding: 20px 0;
+        padding: 40px 0;
+        margin-bottom: 40px;
     }
 
     section.info > .info_container > .map > iframe
